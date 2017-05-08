@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0223ADB0D31DE6C45E76B3FE0B65925F /* Pods-SKMarketMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B23DAF0C9CDFE9F503F520609C45E3DD /* Pods-SKMarketMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2679F18C9962E9820806D296BA7001C8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE53E224FA7E0015DC24797EE38E833 /* ReplaceMe.m */; };
+		3E780B013EAAAD5B3B15CA15643DE5AD /* SKMarketMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B944FAFC29E480F9E24FA906195797C2 /* SKMarketMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75617EF0754A772B4E52023FDD9487FD /* Pods-SKMarketMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E854B6C37CF3DD765A64AECBFBC703D /* Pods-SKMarketMediator_Tests-dummy.m */; };
+		94BB81B06D38FA7DA2EA04ACDED14E00 /* Pods-SKMarketMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 423693C537EEEC44628D7E77D9322419 /* Pods-SKMarketMediator_Example-dummy.m */; };
+		9E4EFACF1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4EFACC1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4EFAD11EC01C4A00752EED /* SKMediator+SKOptionalKitActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EFACD1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.m */; };
+		A26AC10D51E431608066A5D17EB1224D /* Pods-SKMarketMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 638FA8D32AB8512A426A4F00A934088D /* Pods-SKMarketMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB90B2E4538057C4D003C2226E38306D /* SKMarketMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8ECD550B0AB8274E5D78F4E037505 /* SKMarketMediator-dummy.m */; };
+		DBEE2C508370A9BD641F78781665F817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DF7A2F69A6BA1AF34870052C53D41EA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EC8A9E20A5BB5317F99E85C02CD866B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9FFA936CC2D3FD71D64628CD295B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E7C960B349B1B7800906EBB7361ED38;
+			remoteInfo = SKMarketMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE3A73BB3F60B7563ED89A28A54AF89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19582B7191C3C7A701DF81C7446A1527 /* Pods-SKMarketMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKMarketMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2DA8ECD550B0AB8274E5D78F4E037505 /* SKMarketMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKMarketMediator-dummy.m"; sourceTree = "<group>"; };
+		33AFEED810F80C93A845B55CF5B5A2D0 /* SKMarketMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKMarketMediator.modulemap; sourceTree = "<group>"; };
+		36014BD86E06BC64BA1CD575893D4B58 /* Pods-SKMarketMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKMarketMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3A854AC7CDF032B8EE0CA4A25F5E5E15 /* Pods-SKMarketMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKMarketMediator_Tests.modulemap"; sourceTree = "<group>"; };
+		3AC4700B3B288CDC99C33092B656C8BD /* Pods-SKMarketMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKMarketMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		423693C537EEEC44628D7E77D9322419 /* Pods-SKMarketMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKMarketMediator_Example-dummy.m"; sourceTree = "<group>"; };
+		46F017CA3B5472C97C8D095D7ACFD832 /* SKMarketMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKMarketMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA67DA921659BCA9D4F106CCBF51398 /* Pods-SKMarketMediator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKMarketMediator_Example-resources.sh"; sourceTree = "<group>"; };
+		52F84D277B4E8984DCA64653631CF542 /* Pods-SKMarketMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKMarketMediator_Example.modulemap"; sourceTree = "<group>"; };
+		568C041042FBB4CD99CC203EC2AB5918 /* Pods-SKMarketMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKMarketMediator_Tests-resources.sh"; sourceTree = "<group>"; };
+		5E854B6C37CF3DD765A64AECBFBC703D /* Pods-SKMarketMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKMarketMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		638FA8D32AB8512A426A4F00A934088D /* Pods-SKMarketMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKMarketMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		6ED47ADD06B3C2B7D95E49C3ABA0DD6C /* Pods-SKMarketMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKMarketMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F9EE31295170803C6E9E28227D3243F /* SKMarketMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKMarketMediator-prefix.pch"; sourceTree = "<group>"; };
+		8225273D4686FA067E6226056DF9C49A /* Pods-SKMarketMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKMarketMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4EFACC1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKMediator+SKOptionalKitActions.h"; sourceTree = "<group>"; };
+		9E4EFACD1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKMediator+SKOptionalKitActions.m"; sourceTree = "<group>"; };
+		A42CFAA2768FF6DA07452132CB4B4F5E /* Pods-SKMarketMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKMarketMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A68CEA2AE5DD7D70DC6B5D4CA49A06F1 /* SKMarketMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKMarketMediator.xcconfig; sourceTree = "<group>"; };
+		AA4CDF2582D2096EA329CBB94C51C89C /* Pods-SKMarketMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKMarketMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ABE53E224FA7E0015DC24797EE38E833 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		B23DAF0C9CDFE9F503F520609C45E3DD /* Pods-SKMarketMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKMarketMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B944FAFC29E480F9E24FA906195797C2 /* SKMarketMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKMarketMediator-umbrella.h"; sourceTree = "<group>"; };
+		BB53521BE80B357B64059BDF4E682FCC /* Pods-SKMarketMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKMarketMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF3CC920F1B9E63D3E37E4C102025F72 /* Pods-SKMarketMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKMarketMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2BAFF1053FE7A295A72E66752416906 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4200446A456853056CEA9DAA3CE422A /* Pods_SKMarketMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKMarketMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D584426846DB878FF2DB973D2528E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98DF684505477E19653F5D1A82A211B /* Pods_SKMarketMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKMarketMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A83BAF0081FC72E738D706F0F38503 /* Pods-SKMarketMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKMarketMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BAA545A52BCD78B3240EDC92985AB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A9E20A5BB5317F99E85C02CD866B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6391B7A410066D231ED7140B27E92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7A2F69A6BA1AF34870052C53D41EA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCCE2164CEE2A6EFF72BFCAA311DE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEE2C508370A9BD641F78781665F817 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6CDE63F028DEEE7337453DE50BE05E /* SKMarketMediator */ = {
+			isa = PBXGroup;
+			children = (
+				9C6826E5E7B83E604E905F4D2AF4B342 /* SKMarketMediator */,
+				EEA0B4CA9D7ED48C7B49E869D7BB184F /* Support Files */,
+			);
+			name = SKMarketMediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77A7B6BE64CEFE4116CB18571E156455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F98DF684505477E19653F5D1A82A211B /* Pods_SKMarketMediator_Example.framework */,
+				F4200446A456853056CEA9DAA3CE422A /* Pods_SKMarketMediator_Tests.framework */,
+				46F017CA3B5472C97C8D095D7ACFD832 /* SKMarketMediator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E4E24B06464AACB030B90B51B13BE7F0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77A7B6BE64CEFE4116CB18571E156455 /* Products */,
+				9CC92C6D7D3FFCB273037EE650F2C85E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85B02DE542E13034E45546F5CCE60EBA /* Pods-SKMarketMediator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F52D584426846DB878FF2DB973D2528E /* Info.plist */,
+				3A854AC7CDF032B8EE0CA4A25F5E5E15 /* Pods-SKMarketMediator_Tests.modulemap */,
+				6ED47ADD06B3C2B7D95E49C3ABA0DD6C /* Pods-SKMarketMediator_Tests-acknowledgements.markdown */,
+				8225273D4686FA067E6226056DF9C49A /* Pods-SKMarketMediator_Tests-acknowledgements.plist */,
+				5E854B6C37CF3DD765A64AECBFBC703D /* Pods-SKMarketMediator_Tests-dummy.m */,
+				AA4CDF2582D2096EA329CBB94C51C89C /* Pods-SKMarketMediator_Tests-frameworks.sh */,
+				568C041042FBB4CD99CC203EC2AB5918 /* Pods-SKMarketMediator_Tests-resources.sh */,
+				B23DAF0C9CDFE9F503F520609C45E3DD /* Pods-SKMarketMediator_Tests-umbrella.h */,
+				BF3CC920F1B9E63D3E37E4C102025F72 /* Pods-SKMarketMediator_Tests.debug.xcconfig */,
+				19582B7191C3C7A701DF81C7446A1527 /* Pods-SKMarketMediator_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKMarketMediator_Tests";
+			path = "Target Support Files/Pods-SKMarketMediator_Tests";
+			sourceTree = "<group>";
+		};
+		9C6826E5E7B83E604E905F4D2AF4B342 /* SKMarketMediator */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFF4AE5BC23FF2A45BE2C7E125016F /* Classes */,
+			);
+			path = SKMarketMediator;
+			sourceTree = "<group>";
+		};
+		9CC92C6D7D3FFCB273037EE650F2C85E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E7AF98E077B22C1C9340A599193C23 /* Pods-SKMarketMediator_Example */,
+				85B02DE542E13034E45546F5CCE60EBA /* Pods-SKMarketMediator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4E7AF98E077B22C1C9340A599193C23 /* Pods-SKMarketMediator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3A73BB3F60B7563ED89A28A54AF89 /* Info.plist */,
+				52F84D277B4E8984DCA64653631CF542 /* Pods-SKMarketMediator_Example.modulemap */,
+				3AC4700B3B288CDC99C33092B656C8BD /* Pods-SKMarketMediator_Example-acknowledgements.markdown */,
+				BB53521BE80B357B64059BDF4E682FCC /* Pods-SKMarketMediator_Example-acknowledgements.plist */,
+				423693C537EEEC44628D7E77D9322419 /* Pods-SKMarketMediator_Example-dummy.m */,
+				36014BD86E06BC64BA1CD575893D4B58 /* Pods-SKMarketMediator_Example-frameworks.sh */,
+				4DA67DA921659BCA9D4F106CCBF51398 /* Pods-SKMarketMediator_Example-resources.sh */,
+				638FA8D32AB8512A426A4F00A934088D /* Pods-SKMarketMediator_Example-umbrella.h */,
+				A42CFAA2768FF6DA07452132CB4B4F5E /* Pods-SKMarketMediator_Example.debug.xcconfig */,
+				F9A83BAF0081FC72E738D706F0F38503 /* Pods-SKMarketMediator_Example.release.xcconfig */,
+			);
+			name = "Pods-SKMarketMediator_Example";
+			path = "Target Support Files/Pods-SKMarketMediator_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7CFF4AE5BC23FF2A45BE2C7E125016F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E4EFACC1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.h */,
+				9E4EFACD1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.m */,
+				ABE53E224FA7E0015DC24797EE38E833 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E4E24B06464AACB030B90B51B13BE7F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6CDE63F028DEEE7337453DE50BE05E /* SKMarketMediator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EEA0B4CA9D7ED48C7B49E869D7BB184F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2BAFF1053FE7A295A72E66752416906 /* Info.plist */,
+				33AFEED810F80C93A845B55CF5B5A2D0 /* SKMarketMediator.modulemap */,
+				A68CEA2AE5DD7D70DC6B5D4CA49A06F1 /* SKMarketMediator.xcconfig */,
+				2DA8ECD550B0AB8274E5D78F4E037505 /* SKMarketMediator-dummy.m */,
+				6F9EE31295170803C6E9E28227D3243F /* SKMarketMediator-prefix.pch */,
+				B944FAFC29E480F9E24FA906195797C2 /* SKMarketMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKMarketMediator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		071BE8CD444305AD404C942AF576D365 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4EFACF1EC01C4A00752EED /* SKMediator+SKOptionalKitActions.h in Headers */,
+				3E780B013EAAAD5B3B15CA15643DE5AD /* SKMarketMediator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD213E3EA2AEB3345D49B078092F87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0223ADB0D31DE6C45E76B3FE0B65925F /* Pods-SKMarketMediator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DF593C4548D22816C2413F917EBF7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26AC10D51E431608066A5D17EB1224D /* Pods-SKMarketMediator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E7C960B349B1B7800906EBB7361ED38 /* SKMarketMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E30D46FD8021487CD5F63B9BBAAA8FE /* Build configuration list for PBXNativeTarget "SKMarketMediator" */;
+			buildPhases = (
+				A2C0D370A0C0AAF12718EA8B15595A51 /* Sources */,
+				EBCCE2164CEE2A6EFF72BFCAA311DE70 /* Frameworks */,
+				071BE8CD444305AD404C942AF576D365 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKMarketMediator;
+			productName = SKMarketMediator;
+			productReference = 46F017CA3B5472C97C8D095D7ACFD832 /* SKMarketMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		901C2292B9C87E0AC1F758F568086445 /* Pods-SKMarketMediator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F0229DD977B11DF4B089A2845B6B92 /* Build configuration list for PBXNativeTarget "Pods-SKMarketMediator_Example" */;
+			buildPhases = (
+				0CFA3B202F905F8055E77310EF974FDB /* Sources */,
+				BA6391B7A410066D231ED7140B27E92F /* Frameworks */,
+				F1DF593C4548D22816C2413F917EBF7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417DD8691526F9E91CCA1218C52D1A34 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKMarketMediator_Example";
+			productName = "Pods-SKMarketMediator_Example";
+			productReference = F98DF684505477E19653F5D1A82A211B /* Pods_SKMarketMediator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F64941AABA5AB5B515759895D93D17FE /* Pods-SKMarketMediator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53AD2BDD045EDDA7C7AE26BE4F3F1AE /* Build configuration list for PBXNativeTarget "Pods-SKMarketMediator_Tests" */;
+			buildPhases = (
+				42EDB59A40DCF0924238D37F0F6F4563 /* Sources */,
+				1BAA545A52BCD78B3240EDC92985AB88 /* Frameworks */,
+				55BD213E3EA2AEB3345D49B078092F87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKMarketMediator_Tests";
+			productName = "Pods-SKMarketMediator_Tests";
+			productReference = F4200446A456853056CEA9DAA3CE422A /* Pods_SKMarketMediator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 77A7B6BE64CEFE4116CB18571E156455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				901C2292B9C87E0AC1F758F568086445 /* Pods-SKMarketMediator_Example */,
+				F64941AABA5AB5B515759895D93D17FE /* Pods-SKMarketMediator_Tests */,
+				2E7C960B349B1B7800906EBB7361ED38 /* SKMarketMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFA3B202F905F8055E77310EF974FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BB81B06D38FA7DA2EA04ACDED14E00 /* Pods-SKMarketMediator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EDB59A40DCF0924238D37F0F6F4563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75617EF0754A772B4E52023FDD9487FD /* Pods-SKMarketMediator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C0D370A0C0AAF12718EA8B15595A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679F18C9962E9820806D296BA7001C8 /* ReplaceMe.m in Sources */,
+				9E4EFAD11EC01C4A00752EED /* SKMediator+SKOptionalKitActions.m in Sources */,
+				DB90B2E4538057C4D003C2226E38306D /* SKMarketMediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417DD8691526F9E91CCA1218C52D1A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKMarketMediator;
+			target = 2E7C960B349B1B7800906EBB7361ED38 /* SKMarketMediator */;
+			targetProxy = CB9FFA936CC2D3FD71D64628CD295B30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B629B82A99C86CE39661BF281460E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19582B7191C3C7A701DF81C7446A1527 /* Pods-SKMarketMediator_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKMarketMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKMarketMediator_Tests/Pods-SKMarketMediator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKMarketMediator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20C87EB11C8C1489E38584E321C1110D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68CEA2AE5DD7D70DC6B5D4CA49A06F1 /* SKMarketMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKMarketMediator/SKMarketMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKMarketMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKMarketMediator/SKMarketMediator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKMarketMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		595A2543735FC78F439B090BEE409576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A83BAF0081FC72E738D706F0F38503 /* Pods-SKMarketMediator_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKMarketMediator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKMarketMediator_Example/Pods-SKMarketMediator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKMarketMediator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70FEF7FB069D6CE1E032C80F8475BEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68CEA2AE5DD7D70DC6B5D4CA49A06F1 /* SKMarketMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKMarketMediator/SKMarketMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKMarketMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKMarketMediator/SKMarketMediator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKMarketMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2554312B5B3C5C26F3DDD33F74FCCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3CC920F1B9E63D3E37E4C102025F72 /* Pods-SKMarketMediator_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKMarketMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKMarketMediator_Tests/Pods-SKMarketMediator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKMarketMediator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE988DC47E5FF29533C764E849AB26CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42CFAA2768FF6DA07452132CB4B4F5E /* Pods-SKMarketMediator_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKMarketMediator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKMarketMediator_Example/Pods-SKMarketMediator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKMarketMediator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F0229DD977B11DF4B089A2845B6B92 /* Build configuration list for PBXNativeTarget "Pods-SKMarketMediator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE988DC47E5FF29533C764E849AB26CB /* Debug */,
+				595A2543735FC78F439B090BEE409576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E30D46FD8021487CD5F63B9BBAAA8FE /* Build configuration list for PBXNativeTarget "SKMarketMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C87EB11C8C1489E38584E321C1110D /* Debug */,
+				70FEF7FB069D6CE1E032C80F8475BEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53AD2BDD045EDDA7C7AE26BE4F3F1AE /* Build configuration list for PBXNativeTarget "Pods-SKMarketMediator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2554312B5B3C5C26F3DDD33F74FCCF2 /* Debug */,
+				1B629B82A99C86CE39661BF281460E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module SKMarketMediator {
+  umbrella header "SKMarketMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

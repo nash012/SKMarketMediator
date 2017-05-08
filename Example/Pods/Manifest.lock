@@ -1,0 +1,16 @@
+PODS:
+  - SKMarketMediator (0.1.0)
+
+DEPENDENCIES:
+  - SKMarketMediator (from `../`)
+
+EXTERNAL SOURCES:
+  SKMarketMediator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SKMarketMediator: edf849cc47751ccc78603968cca63f578c7a107c
+
+PODFILE CHECKSUM: d2b3fbdee2393d9fe4a0d352921debd7e37908d6
+
+COCOAPODS: 1.2.0

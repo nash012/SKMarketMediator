@@ -1,0 +1,6 @@
+framework module Pods_SKMarketMediator_Example {
+  umbrella header "Pods-SKMarketMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
