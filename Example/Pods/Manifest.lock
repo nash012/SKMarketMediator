@@ -1,16 +1,27 @@
 PODS:
-  - SKMarketMediator (0.1.0)
+  - SKMarketMediator (0.1.0):
+    - SKMediator
+  - SKMediator (0.1.0)
 
 DEPENDENCIES:
   - SKMarketMediator (from `../`)
+  - SKMediator (from `https://github.com/nash012/SKMediator.git`)
 
 EXTERNAL SOURCES:
   SKMarketMediator:
     :path: ../
+  SKMediator:
+    :git: https://github.com/nash012/SKMediator.git
+
+CHECKOUT OPTIONS:
+  SKMediator:
+    :commit: d21512984821645870c1d0d34a1703b17cefdf21
+    :git: https://github.com/nash012/SKMediator.git
 
 SPEC CHECKSUMS:
-  SKMarketMediator: edf849cc47751ccc78603968cca63f578c7a107c
+  SKMarketMediator: 4e60238b63182e6292a2dc3f658b3751a771ec81
+  SKMediator: 1efb9b8ba265b65ca82c61b33d6cad36be9c52b8
 
-PODFILE CHECKSUM: d2b3fbdee2393d9fe4a0d352921debd7e37908d6
+PODFILE CHECKSUM: 577a0106dfa2f8d9d75f68b951dd875f97be2f02
 
 COCOAPODS: 1.2.0

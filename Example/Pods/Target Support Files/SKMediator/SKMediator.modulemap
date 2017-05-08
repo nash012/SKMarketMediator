@@ -1,0 +1,6 @@
+framework module SKMediator {
+  umbrella header "SKMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

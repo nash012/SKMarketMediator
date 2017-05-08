@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of SKMarketMediator.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/nash012@sina.com/SKMarketMediator",
+  "homepage": "https://github.com/nash012/SKMarketMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "nash012@sina.com": "zhangzhengrong@emoney.cn"
   },
   "source": {
-    "git": "https://github.com/nash012@sina.com/SKMarketMediator.git",
+    "git": "https://github.com/nash012/SKMarketMediator.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SKMarketMediator/Classes/**/*"
+  "source_files": "SKMarketMediator/Classes/**/*",
+  "dependencies": {
+    "SKMediator": [
+
+    ]
+  }
 }

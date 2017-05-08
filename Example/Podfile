@@ -3,9 +3,5 @@ use_frameworks!
 target 'SKMarketMediator_Example' do
   pod 'SKMarketMediator', :path => '../'
 
-  target 'SKMarketMediator_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'SKMediator', :git => 'https://github.com/nash012/SKMediator.git'
 end

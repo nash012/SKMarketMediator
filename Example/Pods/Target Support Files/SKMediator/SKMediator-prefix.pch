@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "SKMediator+SKOptionalKitActions.h"
-
-FOUNDATION_EXPORT double SKMarketMediatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char SKMarketMediatorVersionString[];
-

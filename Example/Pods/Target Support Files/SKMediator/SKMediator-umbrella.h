@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "SKMediator.h"
 
-FOUNDATION_EXPORT double Pods_SKMarketMediator_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SKMarketMediator_TestsVersionString[];
+FOUNDATION_EXPORT double SKMediatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char SKMediatorVersionString[];
 
